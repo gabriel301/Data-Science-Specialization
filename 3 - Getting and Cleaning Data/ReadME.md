@@ -74,3 +74,11 @@ As the join operation sort all values of this new dataset by the activity id, th
 Finally, all names are binded into the observations dataset, as well as the subject ids dataset.
 
 ## 5. REGION 5 - Labeling the data set with descriptive variable names
+Names
+
+## 6. REGION 6 - Grouping the data and calculating the average value of each variable
+First, the data set is melt in order to turn each variable measure into a row. Then, data is grouped by both *Subject_id* and *Activity columns* in order to calculate the average value.
+Finally, variable names are split into columns, and the remaining columns have their names ajusted.
+
+## 7. REGION 7 - Writing data into a file
+The output file is created at */root/Tidy Data* folder, and named as *Tidy-Datetime.txt* where *datetime* is the date and time when the file was created.
