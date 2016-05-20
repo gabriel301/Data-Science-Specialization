@@ -75,7 +75,7 @@ Finally, all names are binded into the observations dataset, as well as the subj
 
 ## 5. REGION 5 - Labeling the data set with descriptive variable names
 In this section, all abbreviated names are converted to full names. For instance, *Gyro* is  
-converted into *Gyroscope*. It also remove parenthesis and adds some dots between the variables in order to separete them as columns later on. One trick used in this section is that, for some missing class values (some variables do not have the Axis value, or Magnitude Value for instance), the string NA is appended in order to split the values into the columns correctly.
+converted into *Gyroscope*. It also removes parentheses and adds some dots between the variables in order to separete them as columns later on. One trick used in this section is that, for some missing class values (some variables do not have the Axis value, or Magnitude Value for instance), the string NA is appended in order to split the values into the columns correctly.
 For the ease of inserting the NA strings, both classes Magnitude and Jerk were moved to the end of the variable name. 
  
 ## 6. REGION 6 - Grouping the data and calculating the average value of each variable
